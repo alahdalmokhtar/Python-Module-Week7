@@ -64,10 +64,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.0454545, 
      <enum>Qt::PlainText</enum>
     </property>
     <property name="pixmap">
-     <pixmap>../../../Downloads/1000329340.png</pixmap>
+     <pixmap>../../../../Downloads/logo.png</pixmap>
     </property>
     <property name="scaledContents">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -109,7 +109,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;CRM-Admin Preference Mean&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>120</x>
@@ -199,14 +199,9 @@ font: 700 10pt &quot;Times New Roman&quot;;</string>
     </layout>
    </widget>
    <zorder>label_2</zorder>
+   <zorder>layoutWidget</zorder>
    <zorder>textBrowser</zorder>
    <zorder>label</zorder>
-   <zorder>pushButton</zorder>
-   <zorder>pushButton_2</zorder>
-   <zorder>pushButton_3</zorder>
-   <zorder>pushButton_4</zorder>
-   <zorder>pushButton_5</zorder>
-   <zorder>pushButton_6</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

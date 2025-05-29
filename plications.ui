@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>733</width>
-    <height>477</height>
+    <width>819</width>
+    <height>531</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,10 +21,10 @@ font: 75 11pt &quot;Arial&quot;;</string>
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>80</y>
-      <width>551</width>
-      <height>331</height>
+      <x>190</x>
+      <y>140</y>
+      <width>611</width>
+      <height>351</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -44,13 +44,13 @@ font: 75 11pt &quot;Arial&quot;;</string>
      <number>3</number>
     </property>
     <property name="columnCount">
-     <number>8</number>
+     <number>14</number>
     </property>
     <attribute name="horizontalHeaderCascadingSectionResizes">
      <bool>false</bool>
     </attribute>
     <attribute name="horizontalHeaderDefaultSectionSize">
-     <number>70</number>
+     <number>100</number>
     </attribute>
     <attribute name="horizontalHeaderStretchLastSection">
      <bool>false</bool>
@@ -60,112 +60,85 @@ font: 75 11pt &quot;Arial&quot;;</string>
     <row/>
     <column>
      <property name="text">
-      <string>Date</string>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>8</pointsize>
-      </font>
+      <string>Times tamp</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>Name Surname </string>
-     </property>
-     <property name="font">
-      <font>
-       <family>Segoe UI</family>
-       <pointsize>8</pointsize>
-       <bold>false</bold>
-       <stylestrategy>NoAntialias</stylestrategy>
-      </font>
+      <string>Full name</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>Mail</string>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>8</pointsize>
-      </font>
+      <string>Email</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>Telephone </string>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>8</pointsize>
-      </font>
+      <string>phone</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>Post Code </string>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>8</pointsize>
-      </font>
+      <string>Zip code</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>State</string>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>8</pointsize>
-      </font>
+      <string>Provrnce</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>Status</string>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>8</pointsize>
-      </font>
+      <string>Economic situation</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>Economical Situation</string>
+      <string>Are you currently attending a language course?</string>
      </property>
-     <property name="font">
-      <font>
-       <pointsize>8</pointsize>
-      </font>
+    </column>
+    <column>
+     <property name="text">
+      <string>What is your foreign language proficiency level?</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Are you currently involved in any project?</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Which department(s) in the IT sector would you like to work in?</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Why do you want to join the VIT project?</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Mentor meeting</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Application Period</string>
      </property>
     </column>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>40</y>
+      <x>10</x>
+      <y>110</y>
       <width>171</width>
       <height>391</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
-     <item row="0" column="0">
-      <widget class="QLineEdit" name="lineEdit">
-       <property name="styleSheet">
-        <string notr="true">   
-color: rgb(0, 0, 0);
-background-color: white;
-
-font: 12pt &quot;Arial&quot;;</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
      <item row="1" column="0">
       <widget class="QPushButton" name="pushButton_12">
        <property name="styleSheet">
@@ -174,94 +147,6 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgb
        </property>
        <property name="text">
         <string>Search</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="QPushButton" name="pushButton_14">
-       <property name="styleSheet">
-        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
-       </property>
-       <property name="text">
-        <string>All applications</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="QPushButton" name="pushButton_15">
-       <property name="styleSheet">
-        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
-       </property>
-       <property name="text">
-        <string>Planed Mentor Meeting </string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="0">
-      <widget class="QPushButton" name="pushButton_13">
-       <property name="styleSheet">
-        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
-       </property>
-       <property name="text">
-        <string>Unscheduled M. Meeting</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="0">
-      <widget class="QPushButton" name="pushButton_11">
-       <property name="styleSheet">
-        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
-       </property>
-       <property name="text">
-        <string>Previous VIT Control</string>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="0">
-      <widget class="QPushButton" name="pushButton_10">
-       <property name="styleSheet">
-        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
-       </property>
-       <property name="text">
-        <string>Repeated Registration</string>
-       </property>
-      </widget>
-     </item>
-     <item row="7" column="0">
-      <widget class="QPushButton" name="pushButton_8">
-       <property name="styleSheet">
-        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
-       </property>
-       <property name="text">
-        <string>Different Registration </string>
-       </property>
-      </widget>
-     </item>
-     <item row="8" column="0">
-      <widget class="QPushButton" name="pushButton_9">
-       <property name="styleSheet">
-        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
-       </property>
-       <property name="text">
-        <string>Fitter Applicstion</string>
-       </property>
-      </widget>
-     </item>
-     <item row="9" column="0">
-      <widget class="QPushButton" name="pushButton_16">
-       <property name="styleSheet">
-        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
-       </property>
-       <property name="text">
-        <string>Back Menu</string>
        </property>
       </widget>
      </item>
@@ -277,7 +162,128 @@ background-color: qlineargradient(spread:pad, x1:0.25, y1:0, x2:1, y2:1, stop:0 
        </property>
       </widget>
      </item>
+     <item row="6" column="0">
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
+       </property>
+       <property name="text">
+        <string>Repeated Registration</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
+       </property>
+       <property name="text">
+        <string>Planed Mentor Meeting </string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
+       </property>
+       <property name="text">
+        <string>Different Registration </string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="pushButton_13">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
+       </property>
+       <property name="text">
+        <string>Unscheduled M. Meeting</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
+       </property>
+       <property name="text">
+        <string>All applications</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QPushButton" name="pushButton_16">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
+       </property>
+       <property name="text">
+        <string>Back Menu</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
+       </property>
+       <property name="text">
+        <string>Fitter Applicstion</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Tahoma&quot;;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(59, 102, 140, 175), stop:1 rgba(255, 255, 255, 255));</string>
+       </property>
+       <property name="text">
+        <string>Previous VIT Control</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="styleSheet">
+        <string notr="true">   
+color: rgb(0, 0, 0);
+background-color: white;
+
+font: 12pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
     </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>0</y>
+      <width>611</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Downloads/logo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
    </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
