@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PreferenceAdmin</class>
+ <widget class="QMainWindow" name="PreferenceAdmin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>470</width>
+    <height>284</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Admin Preference Menu</string>
+  </property>
+  <property name="font">
+   <font>
+    <family>Times New Roman</family>
+    <pointsize>10</pointsize>
+    <bold>true</bold>
+    <italic>false</italic>
+   </font>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+    background-color: rgb(165, 170, 169);
+    font: 700 10pt "Times New Roman";
+   </string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0" colspan="2">
+     <widget class="QLabel" name="logo_label">
+      <property name="maximumSize">
+       <size>
+        <width>16777214</width>
+        <height>10000</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="btn_applications">
+      <property name="text">
+       <string>Applications</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+        font: 700 10pt "Times New Roman";
+        background-color: rgb(189, 189, 189);
+        padding: 5px;
+       </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="btn_mentor_interview">
+      <property name="text">
+       <string>Mentor Interview</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+        font: 700 10pt "Times New Roman";
+        background-color: rgb(189, 189, 189);
+        padding: 5px;
+       </string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="btn_interview">
+      <property name="text">
+       <string>Interview</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+        font: 700 10pt "Times New Roman";
+        background-color: rgb(189, 189, 189);
+        padding: 5px;
+       </string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="btn_admin">
+      <property name="text">
+       <string>Admin</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+        font: 700 10pt "Times New Roman";
+        background-color: rgb(189, 189, 189);
+        padding: 5px;
+       </string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="btn_main_menu">
+      <property name="text">
+       <string>Main Menu</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+        font: 700 10pt "Times New Roman";
+        background-color: rgb(189, 189, 189);
+        padding: 5px;
+       </string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="btn_exit">
+      <property name="text">
+       <string>Exit</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+        font: 700 10pt "Times New Roman";
+        background-color: rgb(189, 189, 189);
+        padding: 5px;
+       </string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
