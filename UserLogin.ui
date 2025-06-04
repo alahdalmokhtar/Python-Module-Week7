@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>new_login</class>
+ <widget class="QMainWindow" name="new_login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>541</width>
+    <height>315</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Login User form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 700 10pt &quot;Times New Roman&quot;;
+background-color: rgb(165, 170, 169);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>-5</y>
+      <width>481</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/eng.alahdal/Downloads/logo-1.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>130</y>
+      <width>216</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Times New Roman&quot;;</string>
+       </property>
+       <property name="text">
+        <string>User name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1" colspan="2">
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Times New Roman&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Password</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" colspan="2">
+      <widget class="QLineEdit" name="lineEdit_2"/>
+     </item>
+     <item row="2" column="1" colspan="2">
+      <widget class="QLabel" name="errorlabel">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0" colspan="2">
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Times New Roman&quot;;
+background-color: rgb(207, 255, 253);</string>
+       </property>
+       <property name="text">
+        <string>Login</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Times New Roman&quot;;
+background-color: rgb(207, 255, 253);</string>
+       </property>
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

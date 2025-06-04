@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>adminmenue</class>
+ <widget class="QMainWindow" name="adminmenue">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Admin Menue</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 700 10pt &quot;Times New Roman&quot;;
+background-color: rgb(170, 170, 170);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>731</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::MarkdownText</enum>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/eng.alahdal/Downloads/logo-1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>781</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Times New Roman&quot;;
+background-color: rgb(156, 156, 156);</string>
+       </property>
+       <property name="text">
+        <string>Activity Control</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Times New Roman&quot;;
+background-color: rgb(156, 156, 156);</string>
+       </property>
+       <property name="text">
+        <string>Preference Admin Menue</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Times New Roman&quot;;
+background-color: rgb(156, 156, 156);</string>
+       </property>
+       <property name="text">
+        <string>Send Mail</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="styleSheet">
+        <string notr="true">font: 700 10pt &quot;Times New Roman&quot;;
+background-color: rgb(156, 156, 156);</string>
+       </property>
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>80</y>
+      <width>151</width>
+      <height>79</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(198, 0, 99);</string>
+    </property>
+    <property name="text">
+     <string>CRM(Admin Menue Page)</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>240</y>
+      <width>701</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 700 10pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="rowCount">
+     <number>1</number>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>150</number>
+    </attribute>
+    <row/>
+    <column>
+     <property name="text">
+      <string>Activity Name</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>116</red>
+       <green>116</green>
+       <blue>116</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Start Time</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>116</red>
+       <green>116</green>
+       <blue>116</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Participant Mail</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>116</red>
+       <green>116</green>
+       <blue>116</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Organizer Mail</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>116</red>
+       <green>116</green>
+       <blue>116</blue>
+      </color>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
